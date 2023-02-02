@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lange="en">
+  <head>
+    <meta charset="UTF_8">
+    <title>Certificat1-4</title>
+     <link rel="stylesheet" href="styles.css" />
+  </head>
+    <body>
+       <h1 id="title">Inscriere la cursurile ClickSchool</h1>  
+        <p id="description">Bine ati venit la cursurile noastre</p>
+
+
+<form id="survey-form">
+  <fieldset><h3>Introdu datele tale</h3>
+
+  <label id="name-label" for="name">Numele<input type ="text" id="name" placeholder="Nume Prenume" required><br>
+
+  <label id="email-label" for="email">Email<input type ="email" id="email" placeholder="Posta electronica" required><br>
+
+   <label id="number-label" for="number">Varsta<input type ="number" id="number" min="16" max="50" placeholder="varsta" required>
+  </fieldset>
+
+  <fieldset><h3>Selecteaza cursul tau preferat</h3>
+    <select id="dropdown">
+      <option value="">Selecteaza cursul</option>
+      <option value="1">HTML</option>
+      <option value="1">CSS</option>
+      <option value="1">JavaScript</option>
+      <option value="1">SQL</option>
+      </select>
+  </fieldset>
+
+<fieldset><h3>Disponibilitatea ta de a invata</h3>
+      <label><input value="ziua" name="perioda"  type="radio" />Ziua</label>
+      <label><input value="seara" name="perioda"  type="radio" />Seara</label>
+      <label><input value="seara" name="perioda"  type="radio" />Oricand</label>
+            </fieldset>
+
+    <fieldset><h3>De unde ai auzit despre noi?</h3>
+      <label><input value="web" name="web"  type="checkbox" />Internet</label>
+      <label><input value="radio" name="radio"  type="checkbox" />Radio</label>
+      <label><input value="prieteni" name="prieteni"  type="checkbox" />Prieteni</label>
+      <label><input value="publicitate" name="publicitate"  type="checkbox" />Publicitate</label>
+      </fieldset>
+      
+   <fieldset>
+       <label><h3>Lasane un comentariu</h3>
+         <textarea placeholder="scrie aici"></textarea><br>
+       </label>
+       <button id="submit">Trimite</button>
+    </fieldset>
+  </body>
+  </html>
+  
+      
